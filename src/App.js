@@ -1,23 +1,16 @@
-import logo from './logo.svg';
+import React from 'react';
+import profileImage from './img/jayKwon.png';
 import './App.css';
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <h1>Jay Kwon's Portfolio</h1>
+      <img src={profileImage} alt="profile-mage" />
+      <h2>1. Bachelor of Computer Science & Techno Management</h2> 
+      <h2>2. Master of Cognitive Science</h2> 
+      <h2>3. Entrepreneur in Cobook</h2> 
+      <h2>4. Senior Research Engineer in Hyundai Motors</h2>
     </div>
   );
 }
